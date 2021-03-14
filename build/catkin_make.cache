@@ -1,0 +1,2 @@
+pcl_demo:ros_astra_camera
+-DCATKIN_DEVEL_PREFIX=/home/galazxhy/pcl_demo_ws/devel -DCMAKE_INSTALL_PREFIX=/home/galazxhy/pcl_demo_ws/install -G Unix Makefiles

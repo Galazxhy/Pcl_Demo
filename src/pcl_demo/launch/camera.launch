@@ -1,0 +1,5 @@
+<launch>
+    <include file = "$(find astra_camera)/launch/astra.launch"/> 
+    <!-- ns = "astra_camera_driver"/> -->
+    <node pkg = "pcl_demo" type = "pcl_demo" name = "demo" output = "screen"/>
+</launch>
